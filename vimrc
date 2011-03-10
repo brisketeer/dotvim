@@ -127,37 +127,40 @@ colorscheme evening
 
 
 
-" enable these if/when they get installed
+" The next section is for working with vim-update-bundles
+" (https://github.com/bronson/vim-update-bundles)
+" Every line that starts with '" BUNDLE:" is a command to load that bundle,
+" followed by related config options
 
 " BUNDLE: git://github.com/scrooloose/nerdtree.git
-"nmap <Space>d :NERDTreeToggle<cr>
-"nmap <Space>D :NERDTreeFind<cr>
+nmap <Space>d :NERDTreeToggle<cr>
+nmap <Space>D :NERDTreeFind<cr>
 
 
 " BUNDLE: git://github.com/scrooloose/nerdcommenter.git
 " Use Control-/ to toggle comments
-"map <C-/> <plug>NERDCommenterToggle<CR>
+map <C-/> <plug>NERDCommenterToggle<CR>
 " And Command-/ works on the Mac
-"map <D-/> <plug>NERDCommenterToggle<CR>
+map <D-/> <plug>NERDCommenterToggle<CR>
 " And C-/ produces C-_ on most terminals
-"map <C-_> <plug>NERDCommenterToggle<CR>
+map <C-_> <plug>NERDCommenterToggle<CR>
 
 
-" BUNDLE: git://github.com/tpope/vim-surround.git
+"" BUNDLE: git://github.com/tpope/vim-surround.git
 " tell surround not to break the visual s keystroke (:help vs)
 "xmap S <Plug>Vsurround
 
 
-" BUNDLE: git://github.com/vim-scripts/taglist.vim.git
+"" BUNDLE: git://github.com/vim-scripts/taglist.vim.git
 "nmap <Space>l :TlistToggle<cr>
 "let Tlist_Use_Right_Window = 1
 
-" BUNDLE: git://github.com/vim-scripts/bufexplorer.zip.git
+"" BUNDLE: git://github.com/vim-scripts/bufexplorer.zip.git
 "nmap <Space>b :BufExplorer<cr>
 
-" BUNDLE: git://git.wincent.com/command-t.git
+"" BUNDLE: git://git.wincent.com/command-t.git
 " ensure we compile with the system ruby if rvm is installed
-" BUNDLE-COMMAND: if which rvm >/dev/null 2>&1; then rvm system exec rake
+"" BUNDLE-COMMAND: if which rvm >/dev/null 2>&1; then rvm system exec rake
 " make; else rake make; fi
 "nmap <silent> <C-Space> :CommandT<CR>
 "nmap <silent> <C-@> :CommandT<CR>
@@ -166,60 +169,60 @@ colorscheme evening
 " let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<Down>', '<ESC>OB']
 "let g:CommandTMatchWindowAtTop = 1
 
-" BUNDLE: git://github.com/bronson/vim-closebuffer.git
+"" BUNDLE: git://github.com/bronson/vim-closebuffer.git
 " BUNDLE: git://github.com/vim-ruby/vim-ruby.git
 " BUNDLE: git://github.com/tpope/vim-rails.git
 " BUNDLE: git://github.com/tpope/vim-rake.git
-" BUNDLE: git://github.com/vim-scripts/a.vim.git
-" BUNDLE: git://github.com/msanders/snipmate.vim.git
-" BUNDLE: git://github.com/scrooloose/snipmate-snippets.git
-" BUNDLE: git://github.com/vim-scripts/IndexedSearch.git
+"" BUNDLE: git://github.com/vim-scripts/a.vim.git
+"" BUNDLE: git://github.com/msanders/snipmate.vim.git
+"" BUNDLE: git://github.com/scrooloose/snipmate-snippets.git
+"" BUNDLE: git://github.com/vim-scripts/IndexedSearch.git
 " BUNDLE: git://github.com/bronson/rspec-vimbundle.git
-"
+
 "    text objects    :he text-objects
 " TODO: rewrite ruby-block-conv to use textobj-rubyblock
-" BUNDLE: git://github.com/bronson/vim-ruby-block-conv.git
-" BUNDLE: git://github.com/kana/vim-textobj-user.git
+"" BUNDLE: git://github.com/bronson/vim-ruby-block-conv.git
+"" BUNDLE: git://github.com/kana/vim-textobj-user.git
 " Ruby text objects: ar, ir
-" BUNDLE: git://github.com/nelstrom/vim-textobj-rubyblock.git
+"" BUNDLE: git://github.com/nelstrom/vim-textobj-rubyblock.git
 " Paramter text objects (between parens and commas): aP, iP
-" BUNDLE: git://github.com/vim-scripts/Parameter-Text-Objects.git
+"" BUNDLE: git://github.com/vim-scripts/Parameter-Text-Objects.git
 " indent text objects: ai, ii, (include line below) aI, iI
 "   ai,ii work best for Python, aI,II work best for Ruby/C/Perl
-" BUNDLE: git://github.com/michaeljsmith/vim-indent-object.git
+"" BUNDLE: git://github.com/michaeljsmith/vim-indent-object.git
 
-" BUNDLE: git://github.com/godlygeek/tabular.git
+"" BUNDLE: git://github.com/godlygeek/tabular.git
 
-" BUNDLE: git://github.com/tpope/vim-endwise.git
-" BUNDLE: git://github.com/tpope/vim-repeat.git
+"" BUNDLE: git://github.com/tpope/vim-endwise.git
+"" BUNDLE: git://github.com/tpope/vim-repeat.git
 
 " BUNDLE: git://github.com/tpope/vim-fugitive.git
 " TODO: this prompt might cause huge delays on MacOS X
 " set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
-" BUNDLE: git://github.com/ervandew/supertab.git
+"" BUNDLE: git://github.com/ervandew/supertab.git
 
-" BUNDLE: git://github.com/bronson/vim-visual-star-search.git
-" BUNDLE: git://github.com/bronson/vim-trailing-whitespace.git
-" BUNDLE: git://github.com/bronson/vim-toggle-wrap.git
+"" BUNDLE: git://github.com/bronson/vim-visual-star-search.git
+"" BUNDLE: git://github.com/bronson/vim-trailing-whitespace.git
+"" BUNDLE: git://github.com/bronson/vim-toggle-wrap.git
 
-" BUNDLE: git://github.com/Raimondi/YAIFA.git
+"" BUNDLE: git://github.com/Raimondi/YAIFA.git
 " verbosity=1 allows you to check YAIFA's results by running :messages
 "let g:yaifa_verbosity = 0
 
-" BUNDLE: git://github.com/vim-scripts/AutoTag.git
-" BUNDLE: git://github.com/robgleeson/vim-markdown-preview.git
+"" BUNDLE: git://github.com/vim-scripts/AutoTag.git
+"" BUNDLE: git://github.com/robgleeson/vim-markdown-preview.git
 
 " Syntax Files:
 " BUNDLE: git://github.com/pangloss/vim-javascript.git
 " BUNDLE: git://github.com/vim-scripts/jQuery.git
-" BUNDLE: git://github.com/tsaleh/vim-shoulda.git
+"" BUNDLE: git://github.com/tsaleh/vim-shoulda.git
 " BUNDLE: git://github.com/tpope/vim-git.git
 " BUNDLE: git://github.com/tpope/vim-cucumber.git
 " BUNDLE: git://github.com/tpope/vim-haml.git
 " BUNDLE: git://github.com/tpope/vim-markdown.git
 " BUNDLE: git://github.com/timcharper/textile.vim.git
-" BUNDLE: git://github.com/kchmck/vim-coffee-script.git
+"" BUNDLE: git://github.com/kchmck/vim-coffee-script.git
 " BUNDLE: git://github.com/ajf/puppet-vim.git
 " BUNDLE: git://github.com/bdd/vim-scala.git
 
