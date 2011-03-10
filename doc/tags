@@ -5,3 +5,5 @@
 ack	ack.txt	/*ack*
 ack-author	ack.txt	/*ack-author*
 ack.txt	ack.txt	/*ack.txt*
+bundles	bundles.txt	/*bundles*
+bundles.txt	bundles.txt	/*bundles.txt*

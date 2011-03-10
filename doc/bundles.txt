@@ -1,0 +1,26 @@
+*bundles* *bundles.txt*            Installed Bundles
+
+
+Last updated by vim-update-bundles on Thu Mar 10 09:53:49 -0500 2011.
+
+  PLUGIN                           VERSION                RELEASE DATE
+------------------------------------------------------------------------
+  |nerdtree|                       4.1.0-28-g1dd345c      2011-03-03
+  |nerdcommenter|                  2.2.2-35-gc8d8318      2011-03-01
+  |ruby|                           vim7.3-29-g8ee9e43     2010-12-19
+  |rails|                          v4.3-9-g5db62b2        2011-02-26
+  |rake|                           n/a                    2011-01-22
+  |rspec-vimbundle|                n/a                    2011-03-06
+  |fugitive|                       v1.1-58-g762bfa7       2011-03-08
+  |javascript|                     n/a                    2011-03-01
+  |jQuery|                         0.4                    2010-02-02
+  |git|                            v5.0-6-gca001e5        2011-02-07
+  |cucumber|                       n/a                    2010-11-21
+  |haml|                           vim7.2-54-ga0345d5     2010-11-08
+  |markdown|                       n/a                    2010-10-24
+  |textile.vim|                    0.2-10-g8740757        2011-02-21
+  |puppet-vim|                     n/a                    2010-12-24
+  |scala|                          n/a                    2010-05-12
+  |vividchalk|                     v2.0                   2010-02-19
+  |irblack|                        n/a                    2010-01-21
+

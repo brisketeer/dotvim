@@ -122,7 +122,7 @@ autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_s
 " slate is great except comments are horrible
 " adaryn is very close to the solaris/emacs I used at OpenTV
 " nice: breeze, evening, navajo-night
-colorscheme evening
+colorscheme vividchalk
 
 
 
