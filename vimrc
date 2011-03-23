@@ -25,6 +25,9 @@ set nowrap                        " by default, dont wrap lines (see <leader>w)
 set showmatch                     " briefly jump to matching brackets while typing
 set nostartofline                 " dont jump to the start of the line as a side effect (i.e. <<)
 
+let mapleader = "_"               " the leader char lets you expand the command set
+let g:mapleader = "_"
+
 "set number                       " show the line numbers
 "set relativenumber               " show the relative line number (how far from current line)
 set ruler                         " enable the ruler
