@@ -28,6 +28,8 @@ set nostartofline                 " dont jump to the start of the line as a side
 let mapleader = "_"               " the leader char lets you expand the command set
 let g:mapleader = "_"
 
+nmap <SPACE> <SPACE>:noh<CR>      " assign <SPACE> to turn off search result matches highlighting (in normal mode)
+
 "set number                       " show the line numbers
 "set relativenumber               " show the relative line number (how far from current line)
 set ruler                         " enable the ruler
